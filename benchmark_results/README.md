@@ -1,4 +1,4 @@
-# Benchmark Results on M1 Mac
+# Benchmark Results on Apple M1 Pro
 
 ## Library versions:
 
