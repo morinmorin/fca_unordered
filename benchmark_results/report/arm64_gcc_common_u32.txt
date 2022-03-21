@@ -1,0 +1,13 @@
+                    std::unordered_map:  4812 ms, 192887304 bytes in 5996613 allocations
+                  boost::unordered_map:  6336 ms, 211027560 bytes in 5996613 allocations
+                       multi_index_map:  7009 ms, 194250472 bytes in 5996614 allocations
+                fca_fmod_unordered_map:  4416 ms, 149423312 bytes in 5996614 allocations
+            fca_pow2_fib_unordered_map:  3798 ms, 167249000 bytes in 5996614 allocations
+         fca_fmod_unordered_bucket_map:  4207 ms, 146277552 bytes in 5996613 allocations
+  fca_fmod_unordered_hybrid_bucket_map:  3689 ms, 177765376 bytes in 1673132 allocations
+  fca_fmod_unordered_linear_bucket_map:  4923 ms, 151781704 bytes in 3 allocations
+    fca_fmod_unordered_pool_bucket_map:  3663 ms, 150995264 bytes in 2 allocations
+fca_fmod_unordered_embedded_bucket_map:  5059 ms, 151781720 bytes in 2 allocations
+      fca_fmod_unordered_coalesced_map:  3079 ms, 117050592 bytes in 1 allocations
+                   absl::node_hash_map:  4166 ms, 123470368 bytes in 5996613 allocations
+                   absl::flat_hash_map:  3064 ms,  75497472 bytes in 1 allocations

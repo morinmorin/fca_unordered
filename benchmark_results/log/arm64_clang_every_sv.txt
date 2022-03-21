@@ -1,0 +1,569 @@
+std::unordered_map, FNV-1a:
+
+Consecutive insert: 548 ms (s=0, size=2000000)
+Random insert: 713 ms (s=0, size=3999508)
+
+Memory: 212660184 bytes in 3999509 allocations
+
+Consecutive lookup: 5400 ms (s=2642269824, size=3999508)
+Random lookup: 5731 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 339 ms (s=0, size=1999753)
+
+Consecutive lookup: 3964 ms (s=1326134912, size=1999753)
+Random lookup: 4707 ms (s=391433336, size=1999753)
+
+Consecutive erase: 376 ms (s=0, size=999753)
+Random erase: 310 ms (s=0, size=0)
+
+Total: 22093 ms
+
+boost::unordered_map, FNV-1a:
+
+Consecutive insert: 469 ms (s=0, size=2000000)
+Random insert: 607 ms (s=0, size=3999508)
+
+Memory: 193534760 bytes in 3999509 allocations
+
+Consecutive lookup: 6592 ms (s=2642269824, size=3999508)
+Random lookup: 5993 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 296 ms (s=0, size=1999753)
+
+Consecutive lookup: 4839 ms (s=1326134912, size=1999753)
+Random lookup: 5420 ms (s=391433336, size=1999753)
+
+Consecutive erase: 363 ms (s=0, size=999753)
+Random erase: 295 ms (s=0, size=0)
+
+Total: 24879 ms
+
+multi_index_map, FNV-1a:
+
+Consecutive insert: 508 ms (s=0, size=2000000)
+Random insert: 739 ms (s=0, size=3999508)
+
+Memory: 210312120 bytes in 3999510 allocations
+
+Consecutive lookup: 4281 ms (s=2642269824, size=3999508)
+Random lookup: 4498 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 638 ms (s=0, size=1999753)
+
+Consecutive lookup: 3165 ms (s=1326134912, size=1999753)
+Random lookup: 3655 ms (s=391433336, size=1999753)
+
+Consecutive erase: 314 ms (s=0, size=999753)
+Random erase: 241 ms (s=0, size=0)
+
+Total: 18043 ms
+
+fca_simple_unordered_map, FNV-1a:
+
+Consecutive insert: 553 ms (s=0, size=2000000)
+Random insert: 734 ms (s=0, size=3999508)
+
+Memory: 278979536 bytes in 3999509 allocations
+
+Consecutive lookup: 4395 ms (s=2642269824, size=3999508)
+Random lookup: 4359 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 430 ms (s=0, size=1999753)
+
+Consecutive lookup: 3059 ms (s=1326134912, size=1999753)
+Random lookup: 3581 ms (s=391433336, size=1999753)
+
+Consecutive erase: 245 ms (s=0, size=999753)
+Random erase: 209 ms (s=0, size=0)
+
+Total: 17570 ms
+
+fca_unordered_map, FNV-1a:
+
+Consecutive insert: 485 ms (s=0, size=2000000)
+Random insert: 709 ms (s=0, size=3999508)
+
+Memory: 181461776 bytes in 3999510 allocations
+
+Consecutive lookup: 4045 ms (s=2642269824, size=3999508)
+Random lookup: 4067 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 215 ms (s=0, size=1999753)
+
+Consecutive lookup: 2750 ms (s=1326134912, size=1999753)
+Random lookup: 3192 ms (s=391433336, size=1999753)
+
+Consecutive erase: 220 ms (s=0, size=999753)
+Random erase: 195 ms (s=0, size=0)
+
+Total: 15882 ms
+
+fca_switch_unordered_map, FNV-1a:
+
+Consecutive insert: 499 ms (s=0, size=2000000)
+Random insert: 700 ms (s=0, size=3999508)
+
+Memory: 181461776 bytes in 3999510 allocations
+
+Consecutive lookup: 4412 ms (s=2642269824, size=3999508)
+Random lookup: 4297 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 216 ms (s=0, size=1999753)
+
+Consecutive lookup: 3096 ms (s=1326134912, size=1999753)
+Random lookup: 3501 ms (s=391433336, size=1999753)
+
+Consecutive erase: 231 ms (s=0, size=999753)
+Random erase: 199 ms (s=0, size=0)
+
+Total: 17155 ms
+
+fca_fmod_unordered_map, FNV-1a:
+
+Consecutive insert: 483 ms (s=0, size=2000000)
+Random insert: 672 ms (s=0, size=3999508)
+
+Memory: 181461776 bytes in 3999510 allocations
+
+Consecutive lookup: 4400 ms (s=2642269824, size=3999508)
+Random lookup: 4246 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 202 ms (s=0, size=1999753)
+
+Consecutive lookup: 3076 ms (s=1326134912, size=1999753)
+Random lookup: 3476 ms (s=391433336, size=1999753)
+
+Consecutive erase: 214 ms (s=0, size=999753)
+Random erase: 194 ms (s=0, size=0)
+
+Total: 16967 ms
+
+fca_frng_unordered_map, FNV-1a:
+
+Consecutive insert: 469 ms (s=0, size=2000000)
+Random insert: 672 ms (s=0, size=3999508)
+
+Memory: 181461776 bytes in 3999510 allocations
+
+Consecutive lookup: 3706 ms (s=2642269824, size=3999508)
+Random lookup: 4070 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 206 ms (s=0, size=1999753)
+
+Consecutive lookup: 2615 ms (s=1326134912, size=1999753)
+Random lookup: 3050 ms (s=391433336, size=1999753)
+
+Consecutive erase: 206 ms (s=0, size=999753)
+Random erase: 200 ms (s=0, size=0)
+
+Total: 15198 ms
+
+fca_pow2_unordered_map, FNV-1a:
+
+Consecutive insert: 361 ms (s=0, size=2000000)
+Random insert: 507 ms (s=0, size=3999508)
+
+Memory: 163635880 bytes in 3999510 allocations
+
+Consecutive lookup: 4269 ms (s=2642269824, size=3999508)
+Random lookup: 3652 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 218 ms (s=0, size=1999753)
+
+Consecutive lookup: 2752 ms (s=1326134912, size=1999753)
+Random lookup: 2929 ms (s=391433336, size=1999753)
+
+Consecutive erase: 242 ms (s=0, size=999753)
+Random erase: 191 ms (s=0, size=0)
+
+Total: 15124 ms
+
+fca_pow2_fib_unordered_map, FNV-1a:
+
+Consecutive insert: 364 ms (s=0, size=2000000)
+Random insert: 502 ms (s=0, size=3999508)
+
+Memory: 163635880 bytes in 3999510 allocations
+
+Consecutive lookup: 4385 ms (s=2642269824, size=3999508)
+Random lookup: 3752 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 214 ms (s=0, size=1999753)
+
+Consecutive lookup: 2813 ms (s=1326134912, size=1999753)
+Random lookup: 2999 ms (s=391433336, size=1999753)
+
+Consecutive erase: 225 ms (s=0, size=999753)
+Random erase: 209 ms (s=0, size=0)
+
+Total: 15466 ms
+
+fca_fmod_unordered_bucket_map, FNV-1a:
+
+Consecutive insert: 427 ms (s=0, size=2000000)
+Random insert: 655 ms (s=0, size=3999508)
+
+Memory: 178316016 bytes in 3999509 allocations
+
+Consecutive lookup: 4380 ms (s=2642269824, size=3999508)
+Random lookup: 4212 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 208 ms (s=0, size=1999753)
+
+Consecutive lookup: 2982 ms (s=1326134912, size=1999753)
+Random lookup: 3398 ms (s=391433336, size=1999753)
+
+Consecutive erase: 208 ms (s=0, size=999753)
+Random erase: 190 ms (s=0, size=0)
+
+Total: 16666 ms
+
+fca_fmod_bcached_unordered_bucket_map, FNV-1a:
+
+Consecutive insert: 452 ms (s=0, size=2000000)
+Random insert: 653 ms (s=0, size=3999508)
+
+Memory: 178316016 bytes in 3999509 allocations
+
+Consecutive lookup: 4369 ms (s=2642269824, size=3999508)
+Random lookup: 4198 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 188 ms (s=0, size=1999753)
+
+Consecutive lookup: 2988 ms (s=1326134912, size=1999753)
+Random lookup: 3386 ms (s=391433336, size=1999753)
+
+Consecutive erase: 211 ms (s=0, size=999753)
+Random erase: 207 ms (s=0, size=0)
+
+Total: 16656 ms
+
+fca_fmod_unordered_hybrid_map, FNV-1a:
+
+Consecutive insert: 413 ms (s=0, size=2000000)
+Random insert: 556 ms (s=0, size=3999508)
+
+Memory: 281432464 bytes in 832124 allocations
+
+Consecutive lookup: 3969 ms (s=2642269824, size=3999508)
+Random lookup: 3999 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 93 ms (s=0, size=1999753)
+
+Consecutive lookup: 2864 ms (s=1326134912, size=1999753)
+Random lookup: 3362 ms (s=391433336, size=1999753)
+
+Consecutive erase: 188 ms (s=0, size=999753)
+Random erase: 199 ms (s=0, size=0)
+
+Total: 15648 ms
+
+fca_fmod_unordered_hybrid_bucket_map, FNV-1a:
+
+Consecutive insert: 392 ms (s=0, size=2000000)
+Random insert: 512 ms (s=0, size=3999508)
+
+Memory: 278286704 bytes in 832123 allocations
+
+Consecutive lookup: 3945 ms (s=2642269824, size=3999508)
+Random lookup: 3971 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 78 ms (s=0, size=1999753)
+
+Consecutive lookup: 2815 ms (s=1326134912, size=1999753)
+Random lookup: 3313 ms (s=391433336, size=1999753)
+
+Consecutive erase: 150 ms (s=0, size=999753)
+Random erase: 179 ms (s=0, size=0)
+
+Total: 15359 ms
+
+fca_fmod_bcached_unordered_hybrid_bucket_map_fnv1a, FNV-1a:
+
+Consecutive insert: 414 ms (s=0, size=2000000)
+Random insert: 518 ms (s=0, size=3999508)
+
+Memory: 278286704 bytes in 832123 allocations
+
+Consecutive lookup: 3918 ms (s=2642269824, size=3999508)
+Random lookup: 3996 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 78 ms (s=0, size=1999753)
+
+Consecutive lookup: 2814 ms (s=1326134912, size=1999753)
+Random lookup: 3344 ms (s=391433336, size=1999753)
+
+Consecutive erase: 155 ms (s=0, size=999753)
+Random erase: 183 ms (s=0, size=0)
+
+Total: 15424 ms
+
+fca_fmod_unordered_linear_map, FNV-1a:
+
+Consecutive insert: 316 ms (s=0, size=2000000)
+Random insert: 456 ms (s=0, size=3999508)
+
+Memory: 255590968 bytes in 4 allocations
+
+Consecutive lookup: 5354 ms (s=2642269824, size=3999508)
+Random lookup: 5150 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 40 ms (s=0, size=1999753)
+
+Consecutive lookup: 3497 ms (s=1326134912, size=1999753)
+Random lookup: 4185 ms (s=391433336, size=1999753)
+
+Consecutive erase: 223 ms (s=0, size=999753)
+Random erase: 252 ms (s=0, size=0)
+
+Total: 19477 ms
+
+fca_fmod_unordered_linear_bucket_map, FNV-1a:
+
+Consecutive insert: 314 ms (s=0, size=2000000)
+Random insert: 419 ms (s=0, size=3999508)
+
+Memory: 252445208 bytes in 3 allocations
+
+Consecutive lookup: 5304 ms (s=2642269824, size=3999508)
+Random lookup: 5122 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 42 ms (s=0, size=1999753)
+
+Consecutive lookup: 3369 ms (s=1326134912, size=1999753)
+Random lookup: 4100 ms (s=391433336, size=1999753)
+
+Consecutive erase: 181 ms (s=0, size=999753)
+Random erase: 235 ms (s=0, size=0)
+
+Total: 19089 ms
+
+fca_fmod_bcached_unordered_linear_bucket_map_fnv1a, FNV-1a:
+
+Consecutive insert: 306 ms (s=0, size=2000000)
+Random insert: 406 ms (s=0, size=3999508)
+
+Memory: 252445208 bytes in 3 allocations
+
+Consecutive lookup: 5331 ms (s=2642269824, size=3999508)
+Random lookup: 5094 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 42 ms (s=0, size=1999753)
+
+Consecutive lookup: 3358 ms (s=1326134912, size=1999753)
+Random lookup: 4098 ms (s=391433336, size=1999753)
+
+Consecutive erase: 183 ms (s=0, size=999753)
+Random erase: 236 ms (s=0, size=0)
+
+Total: 19057 ms
+
+fca_fmod_unordered_pool_map, FNV-1a:
+
+Consecutive insert: 424 ms (s=0, size=2000000)
+Random insert: 564 ms (s=0, size=3999508)
+
+Memory: 254804528 bytes in 3 allocations
+
+Consecutive lookup: 5500 ms (s=2642269824, size=3999508)
+Random lookup: 4747 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 58 ms (s=0, size=1999753)
+
+Consecutive lookup: 3419 ms (s=1326134912, size=1999753)
+Random lookup: 3826 ms (s=391433336, size=1999753)
+
+Consecutive erase: 197 ms (s=0, size=999753)
+Random erase: 210 ms (s=0, size=0)
+
+Total: 18950 ms
+
+fca_fmod_unordered_pool_bucket_map, FNV-1a:
+
+Consecutive insert: 357 ms (s=0, size=2000000)
+Random insert: 509 ms (s=0, size=3999508)
+
+Memory: 251658768 bytes in 2 allocations
+
+Consecutive lookup: 5275 ms (s=2642269824, size=3999508)
+Random lookup: 4670 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 75 ms (s=0, size=1999753)
+
+Consecutive lookup: 3289 ms (s=1326134912, size=1999753)
+Random lookup: 3757 ms (s=391433336, size=1999753)
+
+Consecutive erase: 188 ms (s=0, size=999753)
+Random erase: 189 ms (s=0, size=0)
+
+Total: 18313 ms
+
+fca_fmod_bcached_unordered_pool_bucket_map_fnv1a, FNV-1a:
+
+Consecutive insert: 348 ms (s=0, size=2000000)
+Random insert: 518 ms (s=0, size=3999508)
+
+Memory: 251658768 bytes in 2 allocations
+
+Consecutive lookup: 5283 ms (s=2642269824, size=3999508)
+Random lookup: 4666 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 72 ms (s=0, size=1999753)
+
+Consecutive lookup: 3298 ms (s=1326134912, size=1999753)
+Random lookup: 3762 ms (s=391433336, size=1999753)
+
+Consecutive erase: 181 ms (s=0, size=999753)
+Random erase: 192 ms (s=0, size=0)
+
+Total: 18326 ms
+
+fca_fmod_unordered_embedded_map, FNV-1a:
+
+Consecutive insert: 356 ms (s=0, size=2000000)
+Random insert: 464 ms (s=0, size=3999508)
+
+Memory: 255591000 bytes in 3 allocations
+
+Consecutive lookup: 4407 ms (s=2642269824, size=3999508)
+Random lookup: 4484 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 46 ms (s=0, size=1999753)
+
+Consecutive lookup: 3014 ms (s=1326134912, size=1999753)
+Random lookup: 3634 ms (s=391433336, size=1999753)
+
+Consecutive erase: 181 ms (s=0, size=999753)
+Random erase: 215 ms (s=0, size=0)
+
+Total: 16805 ms
+
+fca_fmod_unordered_embedded_bucket_map, FNV-1a:
+
+Consecutive insert: 330 ms (s=0, size=2000000)
+Random insert: 452 ms (s=0, size=3999508)
+
+Memory: 252445240 bytes in 2 allocations
+
+Consecutive lookup: 4382 ms (s=2642269824, size=3999508)
+Random lookup: 4448 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 42 ms (s=0, size=1999753)
+
+Consecutive lookup: 2999 ms (s=1326134912, size=1999753)
+Random lookup: 3597 ms (s=391433336, size=1999753)
+
+Consecutive erase: 156 ms (s=0, size=999753)
+Random erase: 202 ms (s=0, size=0)
+
+Total: 16611 ms
+
+fca_fmod_bcached_unordered_embedded_bucket_map_fnv1a, FNV-1a:
+
+Consecutive insert: 335 ms (s=0, size=2000000)
+Random insert: 471 ms (s=0, size=3999508)
+
+Memory: 252445240 bytes in 2 allocations
+
+Consecutive lookup: 4379 ms (s=2642269824, size=3999508)
+Random lookup: 4440 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 41 ms (s=0, size=1999753)
+
+Consecutive lookup: 2987 ms (s=1326134912, size=1999753)
+Random lookup: 3602 ms (s=391433336, size=1999753)
+
+Consecutive erase: 156 ms (s=0, size=999753)
+Random erase: 207 ms (s=0, size=0)
+
+Total: 16622 ms
+
+fca_fmod_unordered_coalesced_map, FNV-1a:
+
+Consecutive insert: 302 ms (s=0, size=2000000)
+Random insert: 403 ms (s=0, size=3999508)
+
+Memory: 234101184 bytes in 1 allocations
+
+Consecutive lookup: 3520 ms (s=2642269824, size=3999508)
+Random lookup: 3728 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 199 ms (s=0, size=1999753)
+
+Consecutive lookup: 2748 ms (s=1326134912, size=1999753)
+Random lookup: 3269 ms (s=391433336, size=1999753)
+
+Consecutive erase: 142 ms (s=0, size=999753)
+Random erase: 162 ms (s=0, size=0)
+
+Total: 14478 ms
+
+absl::node_hash_map, FNV-1a:
+
+Consecutive insert: 345 ms (s=0, size=2000000)
+Random insert: 598 ms (s=0, size=3999508)
+
+Memory: 171485664 bytes in 3999509 allocations
+
+Consecutive lookup: 2373 ms (s=2642269824, size=3999508)
+Random lookup: 2714 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 180 ms (s=0, size=1999753)
+
+Consecutive lookup: 1539 ms (s=1326134912, size=1999753)
+Random lookup: 2305 ms (s=391433336, size=1999753)
+
+Consecutive erase: 191 ms (s=0, size=999753)
+Random erase: 210 ms (s=0, size=0)
+
+Total: 10459 ms
+
+absl::flat_hash_map, FNV-1a:
+
+Consecutive insert: 129 ms (s=0, size=2000000)
+Random insert: 245 ms (s=0, size=3999508)
+
+Memory: 209715184 bytes in 1 allocations
+
+Consecutive lookup: 2443 ms (s=2642269824, size=3999508)
+Random lookup: 2739 ms (s=371793592, size=3999508)
+
+Iterate and erase odd elements: 33 ms (s=0, size=1999753)
+
+Consecutive lookup: 1546 ms (s=1326134912, size=1999753)
+Random lookup: 2322 ms (s=391433336, size=1999753)
+
+Consecutive erase: 152 ms (s=0, size=999753)
+Random erase: 181 ms (s=0, size=0)
+
+Total: 9794 ms
+
+---
+
+                                  std::unordered_map, FNV-1a: 22093 ms, 212660184 bytes in 3999509 allocations
+                                boost::unordered_map, FNV-1a: 24879 ms, 193534760 bytes in 3999509 allocations
+                                     multi_index_map, FNV-1a: 18043 ms, 210312120 bytes in 3999510 allocations
+                            fca_simple_unordered_map, FNV-1a: 17570 ms, 278979536 bytes in 3999509 allocations
+                                   fca_unordered_map, FNV-1a: 15882 ms, 181461776 bytes in 3999510 allocations
+                            fca_switch_unordered_map, FNV-1a: 17155 ms, 181461776 bytes in 3999510 allocations
+                              fca_fmod_unordered_map, FNV-1a: 16967 ms, 181461776 bytes in 3999510 allocations
+                              fca_frng_unordered_map, FNV-1a: 15198 ms, 181461776 bytes in 3999510 allocations
+                              fca_pow2_unordered_map, FNV-1a: 15124 ms, 163635880 bytes in 3999510 allocations
+                          fca_pow2_fib_unordered_map, FNV-1a: 15466 ms, 163635880 bytes in 3999510 allocations
+                       fca_fmod_unordered_bucket_map, FNV-1a: 16666 ms, 178316016 bytes in 3999509 allocations
+               fca_fmod_bcached_unordered_bucket_map, FNV-1a: 16656 ms, 178316016 bytes in 3999509 allocations
+                       fca_fmod_unordered_hybrid_map, FNV-1a: 15648 ms, 281432464 bytes in 832124 allocations
+                fca_fmod_unordered_hybrid_bucket_map, FNV-1a: 15359 ms, 278286704 bytes in 832123 allocations
+  fca_fmod_bcached_unordered_hybrid_bucket_map_fnv1a, FNV-1a: 15424 ms, 278286704 bytes in 832123 allocations
+                       fca_fmod_unordered_linear_map, FNV-1a: 19477 ms, 255590968 bytes in 4 allocations
+                fca_fmod_unordered_linear_bucket_map, FNV-1a: 19089 ms, 252445208 bytes in 3 allocations
+  fca_fmod_bcached_unordered_linear_bucket_map_fnv1a, FNV-1a: 19057 ms, 252445208 bytes in 3 allocations
+                         fca_fmod_unordered_pool_map, FNV-1a: 18950 ms, 254804528 bytes in 3 allocations
+                  fca_fmod_unordered_pool_bucket_map, FNV-1a: 18313 ms, 251658768 bytes in 2 allocations
+    fca_fmod_bcached_unordered_pool_bucket_map_fnv1a, FNV-1a: 18326 ms, 251658768 bytes in 2 allocations
+                     fca_fmod_unordered_embedded_map, FNV-1a: 16805 ms, 255591000 bytes in 3 allocations
+              fca_fmod_unordered_embedded_bucket_map, FNV-1a: 16611 ms, 252445240 bytes in 2 allocations
+fca_fmod_bcached_unordered_embedded_bucket_map_fnv1a, FNV-1a: 16622 ms, 252445240 bytes in 2 allocations
+                    fca_fmod_unordered_coalesced_map, FNV-1a: 14478 ms, 234101184 bytes in 1 allocations
+                                 absl::node_hash_map, FNV-1a: 10459 ms, 171485664 bytes in 3999509 allocations
+                                 absl::flat_hash_map, FNV-1a:  9794 ms, 209715184 bytes in 1 allocations

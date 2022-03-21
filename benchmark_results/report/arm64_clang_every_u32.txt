@@ -1,0 +1,25 @@
+                            std::unordered_map:  7345 ms, 196598552 bytes in 5996613 allocations
+                          boost::unordered_map:  6052 ms, 211027560 bytes in 5996613 allocations
+                               multi_index_map:  5753 ms, 194250472 bytes in 5996614 allocations
+                      fca_simple_unordered_map:  5909 ms, 246941072 bytes in 5996613 allocations
+                             fca_unordered_map:  4790 ms, 149423312 bytes in 5996614 allocations
+                      fca_switch_unordered_map:  4900 ms, 149423312 bytes in 5996614 allocations
+                        fca_fmod_unordered_map:  3457 ms, 149423312 bytes in 5996614 allocations
+                    fca_pow2_fib_unordered_map:  3764 ms, 167249000 bytes in 5996614 allocations
+                 fca_fmod_unordered_bucket_map:  3344 ms, 146277552 bytes in 5996613 allocations
+         fca_fmod_bcached_unordered_bucket_map:  3352 ms, 146277552 bytes in 5996613 allocations
+                 fca_fmod_unordered_hybrid_map:  2994 ms, 180911136 bytes in 1673133 allocations
+          fca_fmod_unordered_hybrid_bucket_map:  2926 ms, 177765376 bytes in 1673132 allocations
+  fca_fmod_bcached_unordered_hybrid_bucket_map:  2943 ms, 177765376 bytes in 1673132 allocations
+                 fca_fmod_unordered_linear_map:  4073 ms, 154927464 bytes in 4 allocations
+          fca_fmod_unordered_linear_bucket_map:  3957 ms, 151781704 bytes in 3 allocations
+  fca_fmod_bcached_unordered_linear_bucket_map:  3976 ms, 151781704 bytes in 3 allocations
+                   fca_fmod_unordered_pool_map:  2847 ms, 154141024 bytes in 3 allocations
+            fca_fmod_unordered_pool_bucket_map:  2756 ms, 150995264 bytes in 2 allocations
+    fca_fmod_bcached_unordered_pool_bucket_map:  2766 ms, 150995264 bytes in 2 allocations
+               fca_fmod_unordered_embedded_map:  4180 ms, 154927480 bytes in 3 allocations
+        fca_fmod_unordered_embedded_bucket_map:  4098 ms, 151781720 bytes in 2 allocations
+fca_fmod_bcached_unordered_embedded_bucket_map:  4114 ms, 151781720 bytes in 2 allocations
+              fca_fmod_unordered_coalesced_map:  3226 ms, 117050592 bytes in 1 allocations
+                           absl::node_hash_map:  4291 ms, 123470368 bytes in 5996613 allocations
+                           absl::flat_hash_map:  3160 ms,  75497472 bytes in 1 allocations

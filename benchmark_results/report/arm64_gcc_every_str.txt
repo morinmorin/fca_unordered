@@ -1,0 +1,27 @@
+                                  std::unordered_map, FNV-1a: 19797 ms, 271711224 bytes in 3999509 allocations
+                                boost::unordered_map, FNV-1a: 22190 ms, 257526888 bytes in 3999509 allocations
+                                     multi_index_map, FNV-1a: 16281 ms, 274304264 bytes in 3999510 allocations
+                            fca_simple_unordered_map, FNV-1a: 15386 ms, 342971664 bytes in 3999509 allocations
+                                   fca_unordered_map, FNV-1a: 14974 ms, 245453904 bytes in 3999510 allocations
+                            fca_switch_unordered_map, FNV-1a: 14254 ms, 245453904 bytes in 3999510 allocations
+                              fca_fmod_unordered_map, FNV-1a: 16150 ms, 245453904 bytes in 3999510 allocations
+                              fca_frng_unordered_map, FNV-1a: 13362 ms, 245453904 bytes in 3999510 allocations
+                              fca_pow2_unordered_map, FNV-1a: 14776 ms, 227628008 bytes in 3999510 allocations
+                          fca_pow2_fib_unordered_map, FNV-1a: 14987 ms, 227628008 bytes in 3999510 allocations
+                       fca_fmod_unordered_bucket_map, FNV-1a: 16717 ms, 242308144 bytes in 3999509 allocations
+               fca_fmod_bcached_unordered_bucket_map, FNV-1a: 16673 ms, 242308144 bytes in 3999509 allocations
+                       fca_fmod_unordered_hybrid_map, FNV-1a: 15258 ms, 395409936 bytes in 832124 allocations
+                fca_fmod_unordered_hybrid_bucket_map, FNV-1a: 15995 ms, 392264176 bytes in 832123 allocations
+  fca_fmod_bcached_unordered_hybrid_bucket_map_fnv1a, FNV-1a: 15827 ms, 392264176 bytes in 832123 allocations
+                       fca_fmod_unordered_linear_map, FNV-1a: 16720 ms, 356254472 bytes in 4 allocations
+                fca_fmod_unordered_linear_bucket_map, FNV-1a: 17019 ms, 353108712 bytes in 3 allocations
+  fca_fmod_bcached_unordered_linear_bucket_map_fnv1a, FNV-1a: 17071 ms, 353108712 bytes in 3 allocations
+                         fca_fmod_unordered_pool_map, FNV-1a: 16739 ms, 355468032 bytes in 3 allocations
+                  fca_fmod_unordered_pool_bucket_map, FNV-1a: 17182 ms, 352322272 bytes in 2 allocations
+    fca_fmod_bcached_unordered_pool_bucket_map_fnv1a, FNV-1a: 17185 ms, 352322272 bytes in 2 allocations
+                     fca_fmod_unordered_embedded_map, FNV-1a: 15682 ms, 356254520 bytes in 3 allocations
+              fca_fmod_unordered_embedded_bucket_map, FNV-1a: 16327 ms, 353108760 bytes in 2 allocations
+fca_fmod_bcached_unordered_embedded_bucket_map_fnv1a, FNV-1a: 16365 ms, 353108760 bytes in 2 allocations
+                    fca_fmod_unordered_coalesced_map, FNV-1a: 14973 ms, 351151776 bytes in 1 allocations
+                                 absl::node_hash_map, FNV-1a:  9535 ms, 235477792 bytes in 3999509 allocations
+                                 absl::flat_hash_map, FNV-1a:  8953 ms, 343932896 bytes in 1 allocations
