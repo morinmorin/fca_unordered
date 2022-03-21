@@ -2,13 +2,13 @@
 
 ## Library versions:
 
-[fca_unordered](https://github.com/joaquintides/fca_unordered)
+[fca_unordered](https://github.com/joaquintides/fca_unordered):
 f683e9bd099e0d87995df4f0fdb1980f4cda3383
 
-[boost](https://github.com/boostorg/boost): 
+[boost](https://github.com/boostorg/boost):
 ac218462f30cd4bf518afee722b09988a018a404
 
-[abseil](https://github.com/abseil/abseil-cpp): 
+[abseil](https://github.com/abseil/abseil-cpp):
 4c015dbb49fcfac25899f3ba7da4be665b5f9aab
 
 ## Compilers
