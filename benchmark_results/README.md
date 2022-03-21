@@ -1,19 +1,18 @@
 # Benchmark Results on Apple M1 Pro
 
 ## Library versions:
-
-[fca_unordered](https://github.com/joaquintides/fca_unordered):
-f683e9bd099e0d87995df4f0fdb1980f4cda3383
-
-[boost](https://github.com/boostorg/boost):
-ac218462f30cd4bf518afee722b09988a018a404
-
-[abseil](https://github.com/abseil/abseil-cpp):
-4c015dbb49fcfac25899f3ba7da4be665b5f9aab
+- joaquintides/fca_unordered@f683e9bd099e0d87995df4f0fdb1980f4cda3383
+- boostorg/boost@ac218462f30cd4bf518afee722b09988a018a404
+- abseil/abseil-cpp@4c015dbb49fcfac25899f3ba7da4be665b5f9aab
 
 ## Compilers
 - Apple Clang 13.0.0
-- GCC 11 (Homebrew)
+- GCC 11.2 (Homebrew)
+
+## CPU Info
+Apple M1 Pro
+- 8 performance cores (3.2 GHz) and 2 efficiency cores (2.0 GHz)
+- No turbo boost
 
 ## Compilation Commands
 ```
