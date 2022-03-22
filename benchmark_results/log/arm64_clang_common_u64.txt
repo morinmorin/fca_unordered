@@ -1,327 +1,327 @@
 std::unordered_map:
 
-Consecutive insert: 51 ms (s=0, size=2000000)
-Random insert: 435 ms (s=0, size=4000000)
-Consecutive shifted insert: 372 ms (s=0, size=6000000)
+Consecutive insert: 52 ms (s=0, size=2000000)
+Random insert: 449 ms (s=0, size=4000000)
+Consecutive shifted insert: 373 ms (s=0, size=6000000)
 
 Memory: 244679864 bytes in 6000001 allocations
 
-Consecutive lookup: 869 ms (s=20000010000000, size=6000000)
-Random lookup: 1721 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 1043 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 888 ms (s=20000010000000, size=6000000)
+Random lookup: 1747 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 1070 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 388 ms (s=0, size=3000000)
+Iterate and erase odd elements: 394 ms (s=0, size=3000000)
 
-Consecutive lookup: 656 ms (s=10000010000000, size=3000000)
-Random lookup: 1192 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 987 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 671 ms (s=10000010000000, size=3000000)
+Random lookup: 1216 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 990 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 123 ms (s=0, size=2000000)
-Random erase: 195 ms (s=0, size=1000000)
-Consecutive shifted erase: 141 ms (s=0, size=0)
+Consecutive erase: 132 ms (s=0, size=2000000)
+Random erase: 210 ms (s=0, size=1000000)
+Consecutive shifted erase: 140 ms (s=0, size=0)
 
-Total: 8180 ms
+Total: 8337 ms
 
 boost::unordered_map:
 
-Consecutive insert: 112 ms (s=0, size=2000000)
-Random insert: 365 ms (s=0, size=4000000)
-Consecutive shifted insert: 520 ms (s=0, size=6000000)
+Consecutive insert: 107 ms (s=0, size=2000000)
+Random insert: 369 ms (s=0, size=4000000)
+Consecutive shifted insert: 542 ms (s=0, size=6000000)
 
 Memory: 259108872 bytes in 6000001 allocations
 
-Consecutive lookup: 749 ms (s=20000010000000, size=6000000)
-Random lookup: 1196 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 725 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 761 ms (s=20000010000000, size=6000000)
+Random lookup: 1221 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 730 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 380 ms (s=0, size=3000000)
+Iterate and erase odd elements: 391 ms (s=0, size=3000000)
 
-Consecutive lookup: 541 ms (s=10000010000000, size=3000000)
-Random lookup: 692 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 611 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 548 ms (s=10000010000000, size=3000000)
+Random lookup: 704 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 615 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 171 ms (s=0, size=2000000)
-Random erase: 185 ms (s=0, size=1000000)
-Consecutive shifted erase: 129 ms (s=0, size=0)
+Consecutive erase: 172 ms (s=0, size=2000000)
+Random erase: 189 ms (s=0, size=1000000)
+Consecutive shifted erase: 153 ms (s=0, size=0)
 
-Total: 6384 ms
+Total: 6508 ms
 
 multi_index_map:
 
-Consecutive insert: 50 ms (s=0, size=2000000)
-Random insert: 361 ms (s=0, size=4000000)
-Consecutive shifted insert: 282 ms (s=0, size=6000000)
+Consecutive insert: 49 ms (s=0, size=2000000)
+Random insert: 370 ms (s=0, size=4000000)
+Consecutive shifted insert: 299 ms (s=0, size=6000000)
 
 Memory: 242331792 bytes in 6000002 allocations
 
-Consecutive lookup: 691 ms (s=20000010000000, size=6000000)
-Random lookup: 1203 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 770 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 699 ms (s=20000010000000, size=6000000)
+Random lookup: 1210 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 775 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 560 ms (s=0, size=3000000)
+Iterate and erase odd elements: 591 ms (s=0, size=3000000)
 
-Consecutive lookup: 511 ms (s=10000010000000, size=3000000)
-Random lookup: 864 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 728 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 528 ms (s=10000010000000, size=3000000)
+Random lookup: 879 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 751 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 98 ms (s=0, size=2000000)
-Random erase: 148 ms (s=0, size=1000000)
-Consecutive shifted erase: 112 ms (s=0, size=0)
+Consecutive erase: 99 ms (s=0, size=2000000)
+Random erase: 154 ms (s=0, size=1000000)
+Consecutive shifted erase: 126 ms (s=0, size=0)
 
-Total: 6385 ms
+Total: 6537 ms
 
 fca_fmod_unordered_map:
 
 Consecutive insert: 49 ms (s=0, size=2000000)
-Random insert: 286 ms (s=0, size=4000000)
-Consecutive shifted insert: 196 ms (s=0, size=6000000)
+Random insert: 278 ms (s=0, size=4000000)
+Consecutive shifted insert: 206 ms (s=0, size=6000000)
 
 Memory: 197477520 bytes in 6000002 allocations
 
-Consecutive lookup: 338 ms (s=20000010000000, size=6000000)
-Random lookup: 845 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 305 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 350 ms (s=20000010000000, size=6000000)
+Random lookup: 853 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 308 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 209 ms (s=0, size=3000000)
+Iterate and erase odd elements: 220 ms (s=0, size=3000000)
 
-Consecutive lookup: 229 ms (s=10000010000000, size=3000000)
-Random lookup: 544 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 282 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 232 ms (s=10000010000000, size=3000000)
+Random lookup: 553 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 284 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 56 ms (s=0, size=2000000)
-Random erase: 114 ms (s=0, size=1000000)
-Consecutive shifted erase: 38 ms (s=0, size=0)
+Consecutive erase: 57 ms (s=0, size=2000000)
+Random erase: 126 ms (s=0, size=1000000)
+Consecutive shifted erase: 43 ms (s=0, size=0)
 
-Total: 3497 ms
+Total: 3566 ms
 
 fca_pow2_fib_unordered_map:
 
-Consecutive insert: 106 ms (s=0, size=2000000)
-Random insert: 285 ms (s=0, size=4000000)
-Consecutive shifted insert: 344 ms (s=0, size=6000000)
+Consecutive insert: 129 ms (s=0, size=2000000)
+Random insert: 280 ms (s=0, size=4000000)
+Consecutive shifted insert: 349 ms (s=0, size=6000000)
 
 Memory: 215303208 bytes in 6000002 allocations
 
-Consecutive lookup: 459 ms (s=20000010000000, size=6000000)
-Random lookup: 727 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 419 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 468 ms (s=20000010000000, size=6000000)
+Random lookup: 735 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 430 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 321 ms (s=0, size=3000000)
+Iterate and erase odd elements: 337 ms (s=0, size=3000000)
 
-Consecutive lookup: 336 ms (s=10000010000000, size=3000000)
-Random lookup: 426 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 330 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 344 ms (s=10000010000000, size=3000000)
+Random lookup: 432 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 341 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 123 ms (s=0, size=2000000)
-Random erase: 104 ms (s=0, size=1000000)
+Consecutive erase: 130 ms (s=0, size=2000000)
+Random erase: 102 ms (s=0, size=1000000)
 Consecutive shifted erase: 82 ms (s=0, size=0)
 
-Total: 4069 ms
+Total: 4164 ms
 
 fca_fmod_unordered_bucket_map:
 
 Consecutive insert: 43 ms (s=0, size=2000000)
-Random insert: 260 ms (s=0, size=4000000)
-Consecutive shifted insert: 151 ms (s=0, size=6000000)
+Random insert: 295 ms (s=0, size=4000000)
+Consecutive shifted insert: 158 ms (s=0, size=6000000)
 
 Memory: 194331760 bytes in 6000001 allocations
 
-Consecutive lookup: 342 ms (s=20000010000000, size=6000000)
-Random lookup: 844 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 305 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 336 ms (s=20000010000000, size=6000000)
+Random lookup: 861 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 310 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 182 ms (s=0, size=3000000)
+Iterate and erase odd elements: 178 ms (s=0, size=3000000)
 
-Consecutive lookup: 226 ms (s=10000010000000, size=3000000)
-Random lookup: 547 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 282 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 230 ms (s=10000010000000, size=3000000)
+Random lookup: 549 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 293 ms (s=10000010000000, size=3000000)
 
 Consecutive erase: 51 ms (s=0, size=2000000)
-Random erase: 110 ms (s=0, size=1000000)
-Consecutive shifted erase: 45 ms (s=0, size=0)
+Random erase: 120 ms (s=0, size=1000000)
+Consecutive shifted erase: 44 ms (s=0, size=0)
 
-Total: 3392 ms
+Total: 3474 ms
 
 fca_fmod_unordered_hybrid_bucket_map:
 
-Consecutive insert: 37 ms (s=0, size=2000000)
-Random insert: 233 ms (s=0, size=4000000)
-Consecutive shifted insert: 72 ms (s=0, size=6000000)
+Consecutive insert: 36 ms (s=0, size=2000000)
+Random insert: 226 ms (s=0, size=4000000)
+Consecutive shifted insert: 76 ms (s=0, size=6000000)
 
 Memory: 241584352 bytes in 1677389 allocations
 
-Consecutive lookup: 244 ms (s=20000010000000, size=6000000)
-Random lookup: 742 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 342 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 249 ms (s=20000010000000, size=6000000)
+Random lookup: 763 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 345 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 82 ms (s=0, size=3000000)
+Iterate and erase odd elements: 91 ms (s=0, size=3000000)
 
-Consecutive lookup: 177 ms (s=10000010000000, size=3000000)
-Random lookup: 495 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 296 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 181 ms (s=10000010000000, size=3000000)
+Random lookup: 505 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 311 ms (s=10000010000000, size=3000000)
 
 Consecutive erase: 21 ms (s=0, size=2000000)
-Random erase: 81 ms (s=0, size=1000000)
+Random erase: 83 ms (s=0, size=1000000)
 Consecutive shifted erase: 39 ms (s=0, size=0)
 
-Total: 2867 ms
+Total: 2932 ms
 
 fca_fmod_unordered_linear_bucket_map:
 
 Consecutive insert: 32 ms (s=0, size=2000000)
-Random insert: 728 ms (s=0, size=4000000)
-Consecutive shifted insert: 511 ms (s=0, size=6000000)
+Random insert: 757 ms (s=0, size=4000000)
+Consecutive shifted insert: 523 ms (s=0, size=6000000)
 
 Memory: 202113456 bytes in 3 allocations
 
-Consecutive lookup: 267 ms (s=20000010000000, size=6000000)
-Random lookup: 872 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 335 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 276 ms (s=20000010000000, size=6000000)
+Random lookup: 890 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 340 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 49 ms (s=0, size=3000000)
+Iterate and erase odd elements: 54 ms (s=0, size=3000000)
 
-Consecutive lookup: 170 ms (s=10000010000000, size=3000000)
-Random lookup: 555 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 291 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 171 ms (s=10000010000000, size=3000000)
+Random lookup: 569 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 290 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 19 ms (s=0, size=2000000)
-Random erase: 47 ms (s=0, size=1000000)
-Consecutive shifted erase: 20 ms (s=0, size=0)
+Consecutive erase: 22 ms (s=0, size=2000000)
+Random erase: 51 ms (s=0, size=1000000)
+Consecutive shifted erase: 21 ms (s=0, size=0)
 
-Total: 3903 ms
+Total: 4002 ms
 
 fca_fmod_unordered_pool_bucket_map:
 
-Consecutive insert: 27 ms (s=0, size=2000000)
-Random insert: 148 ms (s=0, size=4000000)
-Consecutive shifted insert: 54 ms (s=0, size=6000000)
+Consecutive insert: 29 ms (s=0, size=2000000)
+Random insert: 146 ms (s=0, size=4000000)
+Consecutive shifted insert: 55 ms (s=0, size=6000000)
 
 Memory: 201327016 bytes in 2 allocations
 
-Consecutive lookup: 280 ms (s=20000010000000, size=6000000)
-Random lookup: 878 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 305 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 281 ms (s=20000010000000, size=6000000)
+Random lookup: 890 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 308 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 58 ms (s=0, size=3000000)
+Iterate and erase odd elements: 57 ms (s=0, size=3000000)
 
-Consecutive lookup: 185 ms (s=10000010000000, size=3000000)
-Random lookup: 563 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 285 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 184 ms (s=10000010000000, size=3000000)
+Random lookup: 574 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 284 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 13 ms (s=0, size=2000000)
-Random erase: 32 ms (s=0, size=1000000)
-Consecutive shifted erase: 12 ms (s=0, size=0)
+Consecutive erase: 15 ms (s=0, size=2000000)
+Random erase: 35 ms (s=0, size=1000000)
+Consecutive shifted erase: 13 ms (s=0, size=0)
 
-Total: 2847 ms
+Total: 2879 ms
 
 fca_fmod_unordered_embedded_bucket_map:
 
-Consecutive insert: 34 ms (s=0, size=2000000)
-Random insert: 694 ms (s=0, size=4000000)
-Consecutive shifted insert: 508 ms (s=0, size=6000000)
+Consecutive insert: 38 ms (s=0, size=2000000)
+Random insert: 730 ms (s=0, size=4000000)
+Consecutive shifted insert: 516 ms (s=0, size=6000000)
 
 Memory: 202113480 bytes in 2 allocations
 
-Consecutive lookup: 301 ms (s=20000010000000, size=6000000)
-Random lookup: 843 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 380 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 317 ms (s=20000010000000, size=6000000)
+Random lookup: 857 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 388 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 56 ms (s=0, size=3000000)
+Iterate and erase odd elements: 61 ms (s=0, size=3000000)
 
-Consecutive lookup: 186 ms (s=10000010000000, size=3000000)
-Random lookup: 541 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 318 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 194 ms (s=10000010000000, size=3000000)
+Random lookup: 552 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 330 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 23 ms (s=0, size=2000000)
+Consecutive erase: 24 ms (s=0, size=2000000)
 Random erase: 46 ms (s=0, size=1000000)
 Consecutive shifted erase: 27 ms (s=0, size=0)
 
-Total: 3962 ms
+Total: 4087 ms
 
 fca_fmod_unordered_coalesced_map:
 
-Consecutive insert: 32 ms (s=0, size=2000000)
-Random insert: 113 ms (s=0, size=4000000)
-Consecutive shifted insert: 67 ms (s=0, size=6000000)
+Consecutive insert: 25 ms (s=0, size=2000000)
+Random insert: 103 ms (s=0, size=4000000)
+Consecutive shifted insert: 71 ms (s=0, size=6000000)
 
 Memory: 175575888 bytes in 1 allocations
 
-Consecutive lookup: 152 ms (s=20000010000000, size=6000000)
-Random lookup: 694 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 590 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 156 ms (s=20000010000000, size=6000000)
+Random lookup: 695 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 581 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 64 ms (s=0, size=3000000)
+Iterate and erase odd elements: 69 ms (s=0, size=3000000)
 
-Consecutive lookup: 190 ms (s=10000010000000, size=3000000)
-Random lookup: 629 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 521 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 187 ms (s=10000010000000, size=3000000)
+Random lookup: 641 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 495 ms (s=10000010000000, size=3000000)
 
 Consecutive erase: 19 ms (s=0, size=2000000)
-Random erase: 45 ms (s=0, size=1000000)
-Consecutive shifted erase: 33 ms (s=0, size=0)
+Random erase: 49 ms (s=0, size=1000000)
+Consecutive shifted erase: 35 ms (s=0, size=0)
 
-Total: 3154 ms
+Total: 3131 ms
 
 absl::node_hash_map:
 
-Consecutive insert: 118 ms (s=0, size=2000000)
-Random insert: 177 ms (s=0, size=4000000)
-Consecutive shifted insert: 188 ms (s=0, size=6000000)
+Consecutive insert: 154 ms (s=0, size=2000000)
+Random insert: 188 ms (s=0, size=4000000)
+Consecutive shifted insert: 196 ms (s=0, size=6000000)
 
 Memory: 171497472 bytes in 6000001 allocations
 
-Consecutive lookup: 504 ms (s=20000010000000, size=6000000)
-Random lookup: 520 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 1157 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 499 ms (s=20000010000000, size=6000000)
+Random lookup: 529 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 1176 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 280 ms (s=0, size=3000000)
+Iterate and erase odd elements: 284 ms (s=0, size=3000000)
 
-Consecutive lookup: 432 ms (s=10000010000000, size=3000000)
-Random lookup: 446 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 953 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 437 ms (s=10000010000000, size=3000000)
+Random lookup: 469 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 976 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 111 ms (s=0, size=2000000)
-Random erase: 101 ms (s=0, size=1000000)
-Consecutive shifted erase: 126 ms (s=0, size=0)
+Consecutive erase: 106 ms (s=0, size=2000000)
+Random erase: 127 ms (s=0, size=1000000)
+Consecutive shifted erase: 136 ms (s=0, size=0)
 
-Total: 5119 ms
+Total: 5283 ms
 
 absl::flat_hash_map:
 
-Consecutive insert: 56 ms (s=0, size=2000000)
-Random insert: 64 ms (s=0, size=4000000)
-Consecutive shifted insert: 64 ms (s=0, size=6000000)
+Consecutive insert: 57 ms (s=0, size=2000000)
+Random insert: 65 ms (s=0, size=4000000)
+Consecutive shifted insert: 65 ms (s=0, size=6000000)
 
 Memory: 142606328 bytes in 1 allocations
 
-Consecutive lookup: 453 ms (s=20000010000000, size=6000000)
-Random lookup: 456 ms (s=20000010000000, size=6000000)
-Consecutive shifted lookup: 967 ms (s=20000010000000, size=6000000)
+Consecutive lookup: 483 ms (s=20000010000000, size=6000000)
+Random lookup: 474 ms (s=20000010000000, size=6000000)
+Consecutive shifted lookup: 1023 ms (s=20000010000000, size=6000000)
 
-Iterate and erase odd elements: 37 ms (s=0, size=3000000)
+Iterate and erase odd elements: 38 ms (s=0, size=3000000)
 
-Consecutive lookup: 383 ms (s=10000010000000, size=3000000)
-Random lookup: 392 ms (s=10000010000000, size=3000000)
-Consecutive shifted lookup: 784 ms (s=10000010000000, size=3000000)
+Consecutive lookup: 395 ms (s=10000010000000, size=3000000)
+Random lookup: 423 ms (s=10000010000000, size=3000000)
+Consecutive shifted lookup: 824 ms (s=10000010000000, size=3000000)
 
-Consecutive erase: 43 ms (s=0, size=2000000)
-Random erase: 42 ms (s=0, size=1000000)
-Consecutive shifted erase: 54 ms (s=0, size=0)
+Consecutive erase: 45 ms (s=0, size=2000000)
+Random erase: 44 ms (s=0, size=1000000)
+Consecutive shifted erase: 61 ms (s=0, size=0)
 
-Total: 3802 ms
+Total: 4002 ms
 
 ---
 
-                    std::unordered_map:  8180 ms, 244679864 bytes in 6000001 allocations
-                  boost::unordered_map:  6384 ms, 259108872 bytes in 6000001 allocations
-                       multi_index_map:  6385 ms, 242331792 bytes in 6000002 allocations
-                fca_fmod_unordered_map:  3497 ms, 197477520 bytes in 6000002 allocations
-            fca_pow2_fib_unordered_map:  4069 ms, 215303208 bytes in 6000002 allocations
-         fca_fmod_unordered_bucket_map:  3392 ms, 194331760 bytes in 6000001 allocations
-  fca_fmod_unordered_hybrid_bucket_map:  2867 ms, 241584352 bytes in 1677389 allocations
-  fca_fmod_unordered_linear_bucket_map:  3903 ms, 202113456 bytes in 3 allocations
-    fca_fmod_unordered_pool_bucket_map:  2847 ms, 201327016 bytes in 2 allocations
-fca_fmod_unordered_embedded_bucket_map:  3962 ms, 202113480 bytes in 2 allocations
-      fca_fmod_unordered_coalesced_map:  3154 ms, 175575888 bytes in 1 allocations
-                   absl::node_hash_map:  5119 ms, 171497472 bytes in 6000001 allocations
-                   absl::flat_hash_map:  3802 ms, 142606328 bytes in 1 allocations
+                    std::unordered_map:  8337 ms, 244679864 bytes in 6000001 allocations
+                  boost::unordered_map:  6508 ms, 259108872 bytes in 6000001 allocations
+                       multi_index_map:  6537 ms, 242331792 bytes in 6000002 allocations
+                fca_fmod_unordered_map:  3566 ms, 197477520 bytes in 6000002 allocations
+            fca_pow2_fib_unordered_map:  4164 ms, 215303208 bytes in 6000002 allocations
+         fca_fmod_unordered_bucket_map:  3474 ms, 194331760 bytes in 6000001 allocations
+  fca_fmod_unordered_hybrid_bucket_map:  2932 ms, 241584352 bytes in 1677389 allocations
+  fca_fmod_unordered_linear_bucket_map:  4002 ms, 202113456 bytes in 3 allocations
+    fca_fmod_unordered_pool_bucket_map:  2879 ms, 201327016 bytes in 2 allocations
+fca_fmod_unordered_embedded_bucket_map:  4087 ms, 202113480 bytes in 2 allocations
+      fca_fmod_unordered_coalesced_map:  3131 ms, 175575888 bytes in 1 allocations
+                   absl::node_hash_map:  5283 ms, 171497472 bytes in 6000001 allocations
+                   absl::flat_hash_map:  4002 ms, 142606328 bytes in 1 allocations
